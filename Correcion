@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="estilo_foto.css" />
+
+</head>
+<body>
+
+
+<div class="blur"></div>
+
+    <h1>Saludos Me Llamo</h1>
+    
+<div class="contenedor">
+
+    <img src="https://randomuser.me/api/portraits/men/83.jpg" alt="texto" class="img"/>
+
+    <div class="medio">
+
+        <div class="texto"> Richard Johnnson</div>
+
+    </div>
+</div>
+
+    <table  class="centro" style="width:85%" border="1px black" background-color:red;>
+
+        <tr>
+        <th> <button onclick="Email()">Email</button> </th>
+
+        <th> <button onclick="Direccion()">Direccion</button> </th>
+
+        <th> <button onclick="Nacimiento()">Cumpleaños</button> </th>
+
+        <th> <button onclick="Telefono()">Telefono</button> </th>
+
+        <th> <button onclick="Estudios()">Estudios</button> </th>
+
+        <th> <button onclick="Habilidades()">Habilidades</button></th>
+
+        <th> <button onclick="Experiencia()">Experiencia</button></th>   
+
+        </tr>
+
+        <tr>
+        <td> <p id="data">Email:</p> </td>
+
+        <td> <p id="data2">Direccion:</p> </td>
+
+        <td> <p id="data3">Cumpleaños:</p> </td>
+
+        <td> <p id="data4">Telefono:</p> </td>
+
+        <td> <p id ="data5">Estudios:</p></td>
+
+        <td> <p id ="data6">Habilidades:</p></td>
+
+        <td><p id ="data7">Experiencia:</p></td>
+
+        </tr>
+
+    </table>
+
+    <script src="funciones.js"></script>
+        
+</body>
+</html>
